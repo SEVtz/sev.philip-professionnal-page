@@ -1,0 +1,148 @@
+#conteneur {
+	width: 100%;
+	margin: 5px auto;
+	background-color: #fff;
+	color: #333;
+	line-height: 130%;
+	min-height: 100%;
+}
+
+#principal {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#entete {
+	height: 55px;
+}
+
+#logoleft {
+	float: left;
+	padding: 10px;
+}
+
+#logoright {
+	float: right;
+	padding: 10px;
+}
+
+#logoif {
+	margin-top: 10px;
+	height: 40px;
+	float: left;
+	margin-right: 4px;
+}
+
+#pied {
+	color: #848F63;
+	text-align: center;
+	font-size: 70%;
+}
+#legal {
+	font-style: italic;
+	font-size: 80%;
+	font-family: Georgia, "Bitstream Vera Serif", Norasi, serif;
+}
+
+html,body {
+	height: 95%;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 96%;
+}
+
+.shadow,
+.content {
+	position: relative;
+	bottom: 2px;
+	right: 2px;
+}
+
+.shadow {
+	background-color: #666; /*shadow color*/
+	color: inherit;
+}
+
+.content {
+	background-color: #FFFFEE;
+	color: #888; 
+	border: 1px #ddd dotted; 
+	padding: .5em 2ex;
+}
+
+.adresse {
+	text-align: center;
+	padding-bottom: 2px;
+	width: 330px;
+	font-size: 85%;
+	line-height: 1.1;
+	right: 25px;
+	margin-left: -150px;
+	margin-top: -80px;
+	position: absolute;
+}
+
+h1, h2, h4, h5 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-weight: normal;
+}
+
+h3 {
+	font-size: 100%;
+}
+img {  
+	border-style: none;
+}
+
+.titre1 {
+	text-align: center;
+	font-size : 130%;
+}
+.titre2 {
+	text-align: center;
+	font-size : 115%;
+}
+
+.titre3 {
+	text-align: center;
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+}
+
+.titre4 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	margin-left: 8px;
+	text-align: left;
+	font-weight: bold;
+	font-size : 110%;
+	border-bottom: 1px solid #ddd;
+	width: 30%;
+	margin-bottom: 8px;
+	padding-top: 20px;
+}
+
+.partie {
+	padding: 10px 10px 10px 10px;
+	background-color: #FBFCFF;
+	border: 1px #ddd dotted;
+	width: 98%;
+}
+.red {
+    color: #FF0000;
+}
+.blue {
+    color: #4169E1;
+}
+.bot {
+     color: #848F63;
+}
+.grey {
+      color: #888;
+}
+.dgrey {
+      color: #666;
+}
+.mgrey {
+      color: #777;
+}
+.fgrey {
+      color: #444;
+}
